@@ -24,8 +24,8 @@ export default function Chart({ isAnimationActive = true }) {
       <AreaChart
         style={{
           width: "100%",
-          maxWidth: "700px",
-          maxHeight: "70vh",
+          maxWidth: "none",
+          maxHeight: "25vh",
           aspectRatio: 1.618,
         }}
         responsive
