@@ -7,7 +7,7 @@ export default function Home() {
       <Sidebar />
       <div className="homeContainer">
         <Navbar />
-        container
+        <div className="widgets"></div>
       </div>
     </div>
   );
